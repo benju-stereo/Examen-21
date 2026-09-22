@@ -1,6 +1,6 @@
 # Examen práctico - Terminal de Expedición Espacial
-# Nombre y apellido:
-# Curso:
+# Nombre y apellido:Benjamin Moyano
+# Curso: 2 1
 #
 # IMPORTANTE:
 # Resolver el programa siguiendo las etapas indicadas en el README.md.
@@ -16,7 +16,6 @@
 # Crear las variables necesarias.
 # Crear las listas de destinos y costos.
 # Pedir el nombre del piloto.
-
 
 # =========================
 # ETAPA 2 - NAVEGACIÓN
@@ -40,3 +39,15 @@
 
 # Mostrar el estado de la nave.
 # Recorrer las listas con un for para mostrar destinos y costos.
+
+a = input("escriba su nombre: ")
+combustible = 100
+viajes = 0
+viajeluna = 0
+viajemarte = 0
+viajesaturno = 0
+
+Destinos:["Luna", "Marte", "Saturno"]
+Costos: ["20", "35", "50"]
+print("bienvenido sea", a)
+print("su combustible toal es de", combustible)
