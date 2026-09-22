@@ -41,13 +41,22 @@
 # Recorrer las listas con un for para mostrar destinos y costos.
 
 a = input("escriba su nombre: ")
-combustible = 100
-viajes = 0
-viajeluna = 0
-viajemarte = 0
-viajesaturno = 0
+combustible = int(100)
+viajes = int(0)
+viajeluna = int(0)
+viajemarte = int(0)
+viajesaturno = int(0)
 
-Destinos:["Luna", "Marte", "Saturno"]
-Costos: ["20", "35", "50"]
+destinos = ["Luna", "Marte", "Saturno"]
+Costos = [20, 35, 50]
+print("TERMINAL DE EXPLORACIÓN ESPACIAL")
 print("bienvenido sea", a)
-print("su combustible toal es de", combustible)
+print("su combustible total es de", combustible)
+
+#no se como hacer la menu profe jeje, asi que el practico me carreara la nota, creo
+
+print("se ira a la", destinos[0])
+print("su costo es de", Costos[0])
+
+print("viaje realizado, ahora su combustible es de")
+print(combustible - Costos[0])
