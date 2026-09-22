@@ -60,3 +60,4 @@ print("su costo es de", Costos[0])
 
 print("viaje realizado, ahora su combustible es de")
 print(combustible - Costos[0])
+Viajes = viajes + 1
